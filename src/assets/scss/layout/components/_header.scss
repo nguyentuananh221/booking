@@ -1,0 +1,29 @@
+.header {
+     .headerTop {
+          .btn-custom {
+               @apply border-none shadow-none hover:bg-gray-200 font-medium;
+          }
+
+          .link-cus {
+               padding: 4px 10px;
+               display: inline-flex;
+               gap: 8px;
+               align-items: center;
+          }
+          .fa-bars {
+               margin-right: 20px;
+               font-size: 20px;
+          }
+          .fa {
+               color: $color-blue;
+          }
+     }
+     .headerBottom{
+          .btn-custom {
+               @apply border-none shadow-none font-medium focus-visible:outline-none;
+               &:first-child{
+                    padding-left: 0;
+               }
+          }
+     }
+}

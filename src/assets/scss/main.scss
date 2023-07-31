@@ -1,0 +1,23 @@
+@import './base/customize';
+@import './base/reset';
+
+@import './helpers/mixin';
+@import './helpers/variables';
+
+
+@import './layout/components/header';
+@import './layout/components/footer';
+
+@import './layout/components/home/carouselComponent';
+@import './layout/components/home/mainModuleComponent';
+@import './layout/components/detailBooking';
+@import './layout/components/confirmInforPersion';
+@import './layout/components/widgets';
+@import './layout/components/summary';
+
+
+
+
+
+
+

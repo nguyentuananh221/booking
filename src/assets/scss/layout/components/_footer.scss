@@ -1,0 +1,27 @@
+.footer{
+     .container{
+          padding: 35px 70px;
+          .row{
+               .col-4{
+                    .brand{
+                         
+                         @apply px-2 py-2 flex items-center rounded-md bg-white ;
+                         height: 3.125rem!important;
+                         
+                         margin-bottom: .5rem;
+                         
+                    }
+
+               }
+               .col-8{
+                    .row{
+                         .col-4{
+                              p{
+                                   margin-bottom: 0.5rem;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}

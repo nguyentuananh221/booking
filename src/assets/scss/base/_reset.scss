@@ -1,0 +1,39 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+p {
+     margin: 0;
+}
+.container {
+     padding: 0;
+}
+h4 {
+     margin: 0;
+}
+.container-fluid {
+     padding-left: 0;
+     padding-right: 0;
+}
+.ant-btn-default:not(:disabled):hover {
+     color: unset;
+}
+a:hover {
+     color: unset;
+}
+
+.ant-tabs-left > .ant-tabs-nav .ant-tabs-tab + .ant-tabs-tab {
+     margin: 0;
+}
+.ant-tabs-left > .ant-tabs-nav .ant-tabs-tab {
+     padding: 11px 24px !important;
+}
+
+.ant-select-selector {
+     border: none !important;
+}
+
+.ant-tabs-left > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane {
+     padding: 0;
+}

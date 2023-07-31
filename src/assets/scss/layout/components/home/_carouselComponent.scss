@@ -1,0 +1,18 @@
+.carouselHeader {
+     background-image: linear-gradient(-180deg, rgb(28 150 237 / 41%), #0770cdf2);
+     .slick-prev {
+          left: 350px;
+          z-index: 100;
+     }
+     .slick-next {
+          right: 350px;
+     }
+     .slick-prev,
+     .slick-next {
+          top: 105%;
+     }
+
+     .img-carousel {
+          box-shadow: 0 0 7px 0px #1c1b1b94;
+     }
+}

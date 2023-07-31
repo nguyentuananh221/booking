@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* FONTSZIE */
+  --fontSize14px: 14px;
+  --fontSize16px: 16px;
+  --fontSize20px: 20px;
+  --fontSize12px: 12px;
+
+  /* COLOR */
+  --color--blu: rgb(1, 148, 243);
+  --color-grey: rgb(104, 113, 118);
+  --color-darkBlue: #0f599b;
+  --color-orange: rgb(255, 94, 31);
+  --color-green: rgb(11, 193, 117);
+  --color-warn: rgb(217, 152, 0);
+
+  /* FONTWEIGHT */
+  --fontWeightBold: bold;
+
+  /* MARGIN */
+  --margin16px: 16px;
+  --margin4px: 4px;
+  --margin40px: 40px;
+  --margin10px: 10px;
+  --margin12px: 12px;
+
+  /* WITH HEIGHT */
+  --heght52px: 52px;
+
+  /* PADDING */
+  --Padding24px: 24px;
+  --Padding16px: 16px;
+  --Padding12px: 12px;
+  --Padding8px: 8px;
+
+  /* BACKGROUND COLOR */
+  --backgroundColorWhite: rgb(255, 255, 255);
+  --backgroundColorGreen: rgb(11, 193, 117);
+  --backgroundColorBlu: #bad6ef;
+  --backgroundColorGrey: rgb(104, 113, 118);
+  --backgroundWarn: rgb(255, 250, 217);
+  --backgroundClolorGreye0e0d1: #e0e0d1;
+}
+
+#main-detail {
+  background-color: var(--backgroundColorWhite);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  .infor-travel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--Padding16px);
+    .name-travel {
+      display: flex;
+      align-items: center;
+      p {
+        font-weight: var(--fontWeightBold);
+        font-size: var(--fontSize14px);
+        display: inline-block;
+        padding: 0 var(--Padding8px);
+      }
+    }
+    .btn-detail {
+      input {
+        padding: var(--Padding8px) 0;
+        color: var(--color--blu);
+        font-weight: var(--fontWeightBold);
+        font-size: var(--fontSize14px);
+      }
+      input:hover {
+        color: var(--color-darkBlue);
+      }
+    }
+  }
+  .list-travel {
+    padding: var(--Padding16px);
+    .list-travel_name {
+      h4 {
+        font-size: 14px;
+        font-weight: var(--fontWeightBold);
+      }
+    }
+    .list-travel_airline {
+      position: relative;
+      display: flex;
+      .travel_airline-icon {
+        img {
+          position: absolute;
+          top: 5px;
+          left: 3px;
+        }
+      }
+      .travel_airline-name {
+        margin: 0 30px;
+        h4 {
+          font-size: var(--fontSize14px);
+          font-weight: var(--fontWeightBold);
+        }
+        p {
+          font-size: var(--fontSize14px);
+          color: var(--color-grey);
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .time-travel {
+    padding: var(--Padding16px) 0;
+    display: flex;
+    justify-content: space-around;
+    .time-travel_right {
+      p {
+        font-size: var(--fontSize14px);
+        font-weight: 600;
+        span {
+          font-size: var(--fontSize12px);
+          color: var(--color-grey);
+        }
+      }
+      .time-travel_address {
+        display: inline-block;
+        margin-top: 6px;
+        padding: 4px;
+        text-align: center;
+        color: var(--color-grey);
+        background-color: var(--backgroundClolorGreye0e0d1);
+        border-radius: 50px;
+      }
+    }
+    .time-travel_middle {
+      p {
+        font-size: var(--fontSize16px);
+        color: var(--color-grey);
+        font-weight: 600;
+        text-align: center;
+      }
+      .time-travel_middle_direction {
+        font-weight: 700;
+        color: var(--color-grey);
+      }
+    }
+    .time-travel_left {
+      p {
+        font-size: var(--fontSize14px);
+        font-weight: 600;
+      }
+      .time-travel_address {
+        margin-top: 14px;
+        padding: 4px;
+        text-align: center;
+        color: var(--color-grey);
+        background-color: var(--backgroundClolorGreye0e0d1);
+        border-radius: 20px;
+      }
+    }
+  }
+  .policy-travel {
+    padding: var(--Padding16px);
+    position: relative;
+    img:first-child {
+      top: 15px;
+      left: 15px;
+      position: absolute;
+    }
+    img {
+      top: 42px;
+      left: 15px;
+      position: absolute;
+    }
+    p {
+      margin-left: 20px;
+      display: inline-block;
+      text-align: center;
+      font-weight: 600;
+    }
+    exclamation {
+      color: #c2c2a3;
+    }
+    .check {
+      margin-top: 10px;
+      color: rgb(0, 135, 90);
+    }
+  }
+}
+
+/* class chung */
+
+/* Infor travel */

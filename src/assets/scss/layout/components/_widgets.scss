@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* FONTSZIE */
+  --fontSize14px: 14px;
+  --fontSize16px: 16px;
+  --fontSize20px: 20px;
+
+  /* COLOR */
+  --color--blu: rgb(1, 148, 243);
+  --color-grey: rgb(104, 113, 118);
+  --color-darkBlue: #0f599b;
+  --color-orange: rgb(255, 94, 31);
+  --color-green: rgb(11, 193, 117);
+  --color-warn: rgb(217, 152, 0);
+
+  /* FONTWEIGHT */
+  --fontWeightBold: bold;
+
+  /* MARGIN */
+  --margin16px: 16px;
+  --margin4px: 4px;
+  --margin40px: 40px;
+  --margin10px: 10px;
+  --margin12px: 12px;
+
+  /* WITH HEIGHT */
+  --heght52px: 52px;
+
+  /* PADDING */
+  --Padding24px: 24px;
+  --Padding16px: 16px;
+  --Padding12px: 12px;
+  --Padding8px: 8px;
+
+  /* BACKGROUND COLOR */
+  --backgroundColorWhite: rgb(255, 255, 255);
+  --backgroundColorGreen: rgb(11, 193, 117);
+  --backgroundColorBlu: #bad6ef;
+  --backgroundWarn: rgb(255, 250, 217);
+}
+
+.box-widgets {
+  margin-top: 40px;
+  h2 {
+    font-size: var(--fontSize20px);
+    font-weight: var(--fontWeightBold);
+  }
+  .widgets {
+    background-color: var(--backgroundColorWhite);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: var(--Padding16px) 0;
+    padding: var(--Padding16px);
+    .more-widgets {
+      position: relative;
+      padding: var(--Padding16px) 0 var(--Padding16px) var(--Padding16px);
+      .check-widgets {
+        font-weight: var(--fontWeightBold);
+        font-size: var(--fontSize16px);
+      }
+      .widgets-title {
+        font-weight: var(--fontWeightBold);
+        color: var(--color-grey);
+        font-size: var(--fontSize14px);
+        margin: var(--margin10px) 24px;
+
+      }
+      .infor-widgets {
+        .widgets-des {
+          position: relative;
+          padding: var(--Padding12px) 0;
+          .dot {
+            position: absolute;
+            top: -16px;
+            left: -4px;
+            width: 24px;
+            height: 3px;
+            background-color: var(--backgroundColorGreen);
+          }
+          .des {
+            position: relative;
+            font-weight: var(--fontWeightBold);
+            margin-top: var(--margin4px);
+            p {
+              display: inline-block;
+              margin-left: 15px;
+              font-size: var(--fontSize14px);
+              color: var(--color-grey);
+            }
+          }
+        }
+      }
+      .more-infor-price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .more-infor {
+          input {
+            color: var(--color--blu);
+            border: none;
+            font-size: var(--fontSize16px);
+            background-color: transparent;
+            font-weight: 700;
+          }
+          input:hover {
+            color: var(--color-darkBlue);
+          }
+        }
+        .widgets-price {
+          font-size: var(--fontSize16px);
+          font-weight: var(--fontWeightBold);
+        }
+      }
+    }
+  }
+}

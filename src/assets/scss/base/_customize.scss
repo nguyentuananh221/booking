@@ -1,0 +1,70 @@
+.ant-dropdown-menu-item:hover {
+     background-color: unset !important;
+}
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item {
+     margin: 0 auto;
+}
+
+// barmenu
+.offcanvas.offcanvas-start {
+     width: 350px;
+}
+
+.containerHome {
+     width: 1060px;
+     margin: 0 auto;
+}
+
+.ant-select-single,
+.ant-space-item {
+     width: 100% !important;
+}
+
+.ant-tabs-tab {
+     // background-color: #F7F9FA!important;
+     // overflow: hidden;
+}
+
+.ant-tabs-tab-active {
+     background-color: white !important;
+}
+
+.ant-tabs-nav .ant-tabs-nav-wrap {
+     overflow: hidden;
+     background-color: #dddddd6b !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+     opacity: 1;
+}
+
+.ant-tabs-nav .ant-tabs-nav-wrap {
+     background-color: transparent !important;
+}
+
+.nav-pills .nav-link {
+     background-color: rgb(247, 249, 250) !important;
+}
+.nav-pills .nav-link.active {
+     background-color: rgb(7, 112, 205) !important;
+}
+
+.hotel,
+.airline {
+     .slick-initialized .slick-slide > div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 70px;
+          margin-bottom: 5px;
+     }
+}
+
+
+.flightDetailComponent{
+     .slick-track{
+          margin: 0!important;
+     }
+}

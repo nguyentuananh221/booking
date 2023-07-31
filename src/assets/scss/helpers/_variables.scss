@@ -1,0 +1,37 @@
+// color
+$color-black: black;
+$color-white: white;
+$color-yellow: #fbff00;
+$color-blue: #0088ff;
+$color-blue-2:#205FA0;
+$color-blue-3: #186BCC;
+$color-orange: #FFA700;
+
+
+$fw-500: 500;
+
+
+$fs-14: 14px;
+$fs-16: 16px;
+
+
+
+
+// break point 
+$breakpoints:(
+    'extra' :1366px,
+    'extra-cus': 1250px,
+    'extra-large':1200px,
+    'extra-large1':1199px,
+    '1085': 1085px,
+    'large-cus' :1070px,
+    '902' : 902px,
+    'large':992px,
+    'medium':768px,
+    '660' : 660px,
+    'small-cus': 610px,
+    'small':576px,
+    'small-max': 500px,
+    'ip12':390px,
+    '320': 320px,
+)

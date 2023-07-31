@@ -1,0 +1,49 @@
+.flyCarousel .slick-prev {
+    display: none !important;
+    left: unset;
+    z-index: 10;
+    top: 90%;;
+    left: 48%;
+    background: unset !important;
+
+}
+
+.flyCarousel .slick-next { 
+    display: none !important;
+    top: 90%;
+    z-index: 10;
+     opacity: .25; 
+    background: unset; 
+    right: 48%;
+    background: unset !important;
+}
+
+.inputPhoneNumber .ant-input-group-addon {
+    width: 40% !important;
+}
+
+.ant-select-arrow {
+    color: rgba(27, 161, 224, 0.841) !important;
+}
+
+.inputNational  {
+    border: 1px solid rgb(205, 208, 209);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.inputNational .ant-select-arrow {
+    display: none;
+}
+
+.dashBardHeader {
+    height: 1px;
+    width: 16px;
+    background-color: rgba(104,113,118,1.00);
+    margin-left: 12px;
+    margin-right: 12px
+}
+
+.stateBooking {
+    padding: 1px 5px;
+}

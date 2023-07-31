@@ -1,0 +1,112 @@
+.summary {
+  margin-bottom: var(--margin40px);
+  border-radius: 20%;
+  .Arlet {
+    width: 100%;
+    border-bottom: 20px;
+    margin: var(--margin40px) 0;
+    .Arlet-top {
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      .drop-down {
+        .drop-down_top {
+          padding: 16px;
+          display: flex;
+          justify-content: space-between;
+          .title {
+            p {
+              font-size: 16px;
+              font-weight: 500;
+            }
+          }
+          .price {
+            position: relative;
+            p {
+              font-size: 20px;
+              font-weight: 500;
+              color: rgb(255, 94, 31);
+              display: inline-block;
+            }
+            img {
+              margin-bottom: 5px;
+              display: inline-block;
+              cursor: pointer;
+            }
+          }
+        }
+        .drop-down_close_bottom {
+          display: none;
+        }
+        .drop-down_bottom_hidden {
+          display: flex;
+          justify-content: space-between;
+        }
+        .drop-down_bottom {
+          padding: 12px 16px 16px 16px;
+          .title {
+            p {
+              font-size: 16px;
+              font-weight: 500;
+            }
+          }
+          .price {
+            p {
+              font-size: 16px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+      .icon-title-primary {
+        position: relative;
+        box-shadow: rgb(1, 148, 243) 0px 0.5px 0px 0px inset;
+        background-color: rgb(236, 248, 255);
+        padding: var(--Padding8px) var(--Padding16px);
+
+        p {
+          margin-left: 30px;
+          display: inline-block;
+          font-size: var(--fontSize16px);
+          color: rgb(2, 100, 200);
+          font-weight: 500;
+        }
+        input {
+          margin-left: 30px;
+
+          color: var(--color--blu);
+          padding: var(--Padding8px) 0;
+          font-size: var(--fontSize14px);
+          font-weight: var(--fontWeightBold);
+        }
+        input:hover {
+          color: var(--color-darkBlue);
+        }
+      }
+    }
+
+    .icon-title-danger {
+      padding: 12px;
+      background-color: var(--backgroundWarn);
+      margin: var(--margin40px) 8px;
+      border: 1px solid var(--color-warn);
+      border-radius: 10px;
+      p {
+        font-size: var(--fontSize14px);
+        color: rgb(177, 84, 0);
+        font-weight: 600;
+        display: block;
+      }
+      input {
+        color: var(--color--blu);
+        padding: var(--Padding8px) 0;
+        margin-top: var(--margin4px);
+        font-size: var(--fontSize14px);
+        font-weight: var(--fontWeightBold);
+      }
+      input:hover {
+        color: var(--color-darkBlue);
+      }
+    }
+  }
+}
